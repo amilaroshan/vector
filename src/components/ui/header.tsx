@@ -97,16 +97,16 @@ function Header() {
             <Link href="/blogs" className="text-sm font-bold  hover:text-foreground transition-colors">
               Blogs
             </Link>
-            <Link href="/integrations" className="text-sm font-bold text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/integrations" className="text-sm font-bold  hover:text-foreground transition-colors">
               Integrations
             </Link>
-            <Link href="/security" className="text-sm font-bold text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/security" className="text-sm font-bold  hover:text-foreground transition-colors">
               Security
             </Link>
-            <Link href="/events" className="text-sm font-bold text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/events" className="text-sm font-bold  hover:text-foreground transition-colors">
               Events
             </Link>
-            <Link href="/pricing" className="text-sm font-bold text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/pricing" className="text-sm font-bold  hover:text-foreground transition-colors">
               Pricing
             </Link>
           </nav>
@@ -158,25 +158,25 @@ function Header() {
                       >
                         <Link 
                           href="/usecases/sales" 
-                          className="block py-1 text-sm font-bold text-muted-foreground"
+                          className="block py-1 text-sm font-bold "
                         >
                           Sales
                         </Link>
                         <Link 
                           href="/usecases/hr" 
-                          className="block py-1 text-sm font-bold text-muted-foreground"
+                          className="block py-1 text-sm font-bold "
                         >
                           HR
                         </Link>
                         <Link 
                           href="/usecases/finance" 
-                          className="block py-1 text-sm font-bold text-muted-foreground"
+                          className="block py-1 text-sm font-bold "
                         >
                           Finance
                         </Link>
                         <Link 
                           href="/usecases/customer-support" 
-                          className="block py-1 text-sm font-bold text-muted-foreground"
+                          className="block py-1 text-sm font-bold "
                         >
                           Customer Support
                         </Link>

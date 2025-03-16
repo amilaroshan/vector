@@ -27,31 +27,31 @@ function WorkersSection() {
             
             <WorkerCard 
               icon={<FileText className="h-5 w-5" />}
-              name="Alex, the Content Specialist"
-              title="Content creation and optimization"
-              description="Alex creates and optimizes content for your marketing campaigns, blog posts, and social media, tailored to your brand voice and target audience."
+              name="Luke, the AI SDR"
+              title="Personalized and adaptive outreach"
+              description="Ditch the email templates, Luke combines deep prospect research with self-improving messaging to craft conversations that convert."
               imageSrc="/luke.svg"
               ctaText="Try it free"
-              ctaLink="/try-alex"
+              ctaLink="/try-Luke"
               reversed={true}
             />
             
             <WorkerCard 
               icon={<MessageSquare className="h-5 w-5" />}
-              name="Sam, the Customer Support Agent"
-              title="24/7 customer support automation"
-              description="Sam handles customer inquiries, troubleshoots common issues, and escalates complex problems to your human team when necessary."
+              name="Ruby, the Lead Qualifier"
+              title="Qualify inbound leads"
+              description="Get Ruby to research leads, no matter where they're coming from, and give you advanced insights so you can better prioritize your sales activities."
               imageSrc="/ruby.svg"
               ctaText="Try it free"
-              ctaLink="/try-sam"
+              ctaLink="/try-ruby"
               reversed={false}
             />
             
             <WorkerCard 
               icon={<BarChart className="h-5 w-5" />}
-              name="Emma, the Data Analyst"
-              title="Actionable insights from your data"
-              description="Emma analyzes your business data to uncover trends, identify opportunities, and provide actionable recommendations to drive growth and efficiency."
+              name="Luna, the Lead Generator,"
+              title="Find leads across 200+ sources"
+              description="Use Luna's 200+ web scrapers to find your perfect leads."
               imageSrc="/luna.svg"
               ctaText="Try it free"
               ctaLink="/try-emma"
