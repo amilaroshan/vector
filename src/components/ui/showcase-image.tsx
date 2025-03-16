@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { TypingHeadline } from "./typing-headline";
 
 interface ShowcaseImageProps {
   imageSrc: string;
@@ -28,6 +29,7 @@ function ShowcaseImage({
           
          
             <div className="relative w-full">
+            <TypingHeadline />
               <Image 
                 src={imageSrc} 
                 alt={alt}
