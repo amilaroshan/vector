@@ -16,7 +16,7 @@ function ShowcaseImage({
   caption
 }: ShowcaseImageProps) {
   return (
-    <div className="w-full py-8 md:py-8 bg-gradient-to-b from-transparent to-muted/20">
+    <div className="w-full hidden md:block py-8 md:py-8 bg-gradient-to-b from-transparent to-muted/20">
       <div className="container mx-auto px-4">
         <motion.div 
           className="max-w-7xl mx-auto"
