@@ -8,8 +8,8 @@ export function TypingHeadline() {
       <h1 className="text-[4px] sm:text-[7px] md:text-[10px] lg:text-[13px] xl:text-[16px] font-bold tracking-tight">
         <TypingEffect 
           text="Prospect and reach out to SaaS founders doing $30M+ in revenue" 
-          speed={40}
-          delay={3000}
+          speed={60}
+          delay={6000}
           className="inline-block"
         />
       </h1>

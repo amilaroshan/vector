@@ -20,9 +20,6 @@ function ShowcaseImage({
       <div className="container mx-auto px-4">
         <motion.div 
           className="max-w-7xl mx-auto"
-          initial={{ opacity: 1, y: -1 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
           viewport={{ once: true, margin: "-100px" }}
         >
 
